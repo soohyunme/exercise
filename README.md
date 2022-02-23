@@ -14,6 +14,7 @@
 6. [서비스 확장성](#6-서비스-확장성)
 
 ## 1. directory
+```
 ├─Data :   
 │ ├─Processing : 전처리 데이터  
 │ ├─Rawdata    
@@ -21,7 +22,7 @@
 ├─Code :   
 │ ├─Preprocessing :  
 └─┴─Processing_code :   
-
+```
 
 ## 2. 분석 프로세스
 
