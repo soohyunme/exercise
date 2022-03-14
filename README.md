@@ -11,7 +11,6 @@
 3. [데이터 수집](#3-데이터-수집)
 4. [데이터 전처리](#4-데이터-전처리)
 5. [추천 알고리즘](#5-추천-알고리즘)
-6. [서비스 확장성](#6-서비스-확장성)
 
 ## 1. directory
 ```
@@ -66,14 +65,18 @@
 
 ## 5. 추천 알고리즘
 ① 사용자의 신체 정보를 이용해 사용자 유형 데이터 생성
+<img src="https://github.com/soohyunme/exercise/blob/main/img/2.png?raw=true"/>  
 
 ② 유형 정보를 통해 최다 처방세트(*해당 유형에 가장 많이 처방된 운동 조합), 각 운동별 희소행렬 도출
+<img src="https://github.com/soohyunme/exercise/blob/main/img/3.png?raw=true"/>  
 
 ③ 희소행렬을 통해 지지도 및 신뢰도 도출, 최다 처방 운동의 지지도 상위 3개 운동을 연관 운동 리스트에 추가
+<img src="https://github.com/soohyunme/exercise/blob/main/img/4.png?raw=true"/>  
 
 ④ 최다 처방세트에서 단계별로 추천운동 1개를 선정, 선정되지 않은 운동과 연관 운동 리스트의 운동들로 추가 추천 운동 선정
+<img src="https://github.com/soohyunme/exercise/blob/main/img/5.png?raw=true"/>  
 
 ⑤ 추천 운동 및 추가 추천 운동 정보 제공
-## 6. 서비스 확장성
+<img src="https://github.com/soohyunme/exercise/blob/main/img/6.png?raw=true"/>  
 
 
